@@ -7,8 +7,8 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
     <!-- Setter injection -->
     <bean id="student" class="org.example.Student">
-        <property name="name" value="Adam Bayyari"/>
-        <property name="id" value="207099"/>
+        <property name="name" value="James Boy"/>
+        <property name="id" value="102859"/>
         <property name="ph">
             <list>
                 <ref bean="phone0" />
@@ -20,23 +20,23 @@
     </bean>
 
     <bean id="phone0" class="org.example.Phone">
-        <property name="mob" value="989-774-0262"/>
+        <property name="mob" value="860-774-0262"/>
     </bean>
 
     <bean id="phone1" class="org.example.Phone">
-        <property name="mob" value="789-204-7142"/>
+        <property name="mob" value="860-204-7142"/>
     </bean>
 
     <bean id="phone2" class="org.example.Phone">
-        <property name="mob" value="619-254-7562"/>
+        <property name="mob" value="860-254-7562"/>
     </bean>
 
 
     <bean id="address" class="org.example.Address">
-        <property name="city" value="Apex" />
-        <property name="state" value="NC" />
+        <property name="city" value="New Havwn" />
+        <property name="state" value="CT" />
         <property name="country" value="US" />
-        <property name="zipcode" value="20539" />
+        <property name="zipcode" value="05118" />
     </bean>
 
 </beans>
